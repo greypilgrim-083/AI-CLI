@@ -13,7 +13,7 @@ import google.generativeai as genai
 import shutil
 
 # ---------------- CONFIGURE GEMINI ----------------
-genai.configure(api_key="AIzaSyAT891OKC8Aj3lst8ges1g4Dt_doR2aLaM")  # replace with your key
+genai.configure(api_key="")  # replace with your key
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # ---------------------- AGENT ----------------------
